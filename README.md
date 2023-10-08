@@ -1,6 +1,6 @@
 # Home-Solar-App
 A simple application to simulate realtime solar data Apps, showing live and historical data from a solar panel <br><br>
-Components needed:
+Components needed: <br>
 ESP8266 <br>
 INA260 I2C voltage and current monitor <br> 
 SSD1306 I2C OLED screen (optional) <br>
