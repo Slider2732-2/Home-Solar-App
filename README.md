@@ -11,5 +11,9 @@ Data shown is the battery voltage, incoming current and wattage.
 The App is based on code by Rui Santos of RandomNerdTutorials.com. Here is a similar full example project on that site: <br> 
 https://randomnerdtutorials.com/esp32-esp8266-plot-chart-web-server/ <br>
 SPIFFS is used to hold the HTML webpage that the data is shown on and, using the tutorial above, you can learn how to upload data to the ESP8266 using SPIFFS. <br><r>
+Circuit connections are only those for I2C, on a Wemos D1 R2 mini they are: <br>
+D1 ---> SCL <br>
+D2 ---> SDA <br>
+<br>
 
 The Arduino sketch contains an area for your home WiFi credentials to be entered. Edit those details to use the App :)
