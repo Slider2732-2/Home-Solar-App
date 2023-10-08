@@ -15,5 +15,6 @@ Circuit connections are only those for I2C, on a Wemos D1 R2 mini they are: <br>
 D1 ---> SCL <br>
 D2 ---> SDA <br>
 <br>
+Aslo, note the Ground connection from the solar panel needs to connect to the INA260's Ground connection for the device to work.
 
 The Arduino sketch contains an area for your home WiFi credentials to be entered. Edit those details to use the App :)
