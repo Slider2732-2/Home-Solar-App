@@ -8,6 +8,8 @@ SSD1306 I2C OLED screen (optional) <br>
 See this video for a demonstration of it working: <br>
 https://www.youtube.com/watch?v=eLJJCFcRFXA
 <br>
+Update - The IP address of the connection is now shown on the SSD1306 screen and in the serial monitor  :)
+<b>
 
 The data is collected using an INA260 voltage/current sensor, passing the data over I2C to an ESP8266. Home WiFi credentials then allow that data to be displayed on a PC, tablet or phone. <br>
 Data shown is the battery voltage, incoming current and wattage.
